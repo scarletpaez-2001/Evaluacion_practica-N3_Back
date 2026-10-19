@@ -46,3 +46,6 @@ En serializers.py: Se configuraron los campos sensibles (usuario y fecha_creacio
 En views.py: Se sobrescribió el método perform_create para asociar automáticamente el recurso al usuario de la sesión activa serializer.save(usuario=self.request.user), y se implementó una lógica de validación estricta en perform_update y get_queryset para filtrar el acceso a los datos y proteger el cambio de estados en las solicitudes según el perfil.
 En permissions.py: Se validaron las clases personalizadas para impedir que usuarios no autorizados ejecuten acciones de borrado de datos.
 
+Por último, le pido que me tenga en consideración con la evaluación 2
+Mi rut es 20.802.646-1
+Gracias 
