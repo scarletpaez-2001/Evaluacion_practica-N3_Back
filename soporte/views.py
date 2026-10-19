@@ -24,6 +24,6 @@ class SolicitudViewSet(viewsets.ModelViewSet):
         user = self.request.user
         # Si no es staff, asegurar que no modifiquen el estado ni cambien el usuario o la fecha
         if not user.is_staff:
-            serializer.save(usuario=self.request.user)
+            serializer.save(usuario=user)
         else:
             serializer.save()
