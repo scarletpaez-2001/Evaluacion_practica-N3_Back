@@ -39,7 +39,7 @@ Usé Inteligencia Artificial como guía para el desarrollo los Endpoints, para l
 A partir de la asesoriía entregada por la IA, seleccionédos recomendaciones de seguridad aplicables en el proyecto:
 Inyección de datos a nivel de servidor
 Control de permisos a nivel de objeto 
-
+Dentro de la carpeta comprimida se encuentra un documento word con las evidencias 
  Implementación y verificación en el proyecto
 Estas recomendaciones fueron aplicadas y verificadas técnicamente en la arquitectura del proyecto:
 En serializers.py: Se configuraron los campos sensibles (usuario y fecha_creacion) con la propiedad read_only=True para bloquear cualquier intento de modificación maliciosa desde el cliente de la API.
